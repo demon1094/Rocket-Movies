@@ -6,7 +6,6 @@ import theme from './styles/theme'
 import GlobalStyle from './styles/global'
 
 import { Routes } from './routes'
-import { Route } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

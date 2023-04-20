@@ -9,6 +9,7 @@ export const Container = styled.div`
   border-radius: 1.6rem;
   background: ${({ theme }) => theme.COLORS.MAGENTA_TRANSPARENT };
   padding: 3.2rem;
+  border: 2px solid transparent;
 
   > h2 {
     font-size: 2.4rem;
@@ -31,5 +32,10 @@ export const Container = styled.div`
 
   > section span {
     background: ${({ theme }) => theme.COLORS.TAG_BG };
+  }
+
+  &:hover {
+    cursor: pointer;
+    border: 2px solid ${({ theme }) => theme.COLORS.MAGENTA };
   }
 `

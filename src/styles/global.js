@@ -31,14 +31,17 @@ export default createGlobalStyle`
     width: 1rem;
     background: transparent;
   }
+
   ::-webkit-scrollbar-track {
     background: ${({ theme }) => theme.COLORS.BACKGROUND_800 };
   }
+
   ::-webkit-scrollbar-thumb {
     border-radius: 1rem;
     background: ${({ theme }) => theme.COLORS.MAGENTA };
     background-clip: padding-box;
   }
+  
   ::-webkit-scrollbar-thumb:hover {
     background: ${({ theme }) => theme.COLORS.ORANGE_HOVER };
   }
