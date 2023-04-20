@@ -1,0 +1,15 @@
+export default {
+  COLORS: {
+    BACKGROUND_LIGHTER: "#1C1B1E",
+    BACKGROUND_DARKER: "#0D0C0F",
+    MAGENTA: "#FF859B",
+    MAGENTA_TRANSPARENT: "#ff859b0e",
+    WHITE: "#F4EDE8",
+    BROWN: "#282124",
+    GRAY_DARKER: "#262529",
+    GRAY_LIGHTER: "#948F99",
+    STROKE: "#3E3B47",
+    BLACK: "#1C1B1E",
+    TAG_BG: "#312E38"
+  }
+}
